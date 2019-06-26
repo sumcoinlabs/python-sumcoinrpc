@@ -1,6 +1,7 @@
 
 """
   Copyright 2011 Jeff Garzik
+  Copyright 2016-2019 Sumcoin
 
   AuthServiceProxy has the following improvements over python-jsonrpc's
   ServiceProxy class:
@@ -16,6 +17,7 @@
   Previous copyright, from python-jsonrpc/jsonrpc/proxy.py:
 
   Copyright (c) 2007 Jan-Klaas Kollhof
+  Copyright (c) 2016-2019 Sumcoin
 
   This file is part of jsonrpc.
 
@@ -51,7 +53,7 @@ USER_AGENT = "AuthServiceProxy/0.1"
 
 HTTP_TIMEOUT = 30
 
-log = logging.getLogger("BitcoinRPC")
+log = logging.getLogger("SumcoinRPC")
 
 class JSONRPCException(Exception):
     def __init__(self, rpc_error):
